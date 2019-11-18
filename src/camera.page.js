@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { Camera} from 'expo';
-import {Permissions} from 'expo-permissions'
+import * as Permissions from 'expo-permissions';
 
 import styles from './styles';
 
